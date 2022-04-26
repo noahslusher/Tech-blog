@@ -1,4 +1,5 @@
-<article class="post">
+<article class="post card h-100">
+  <div class="post-holder card-body">
   <div class="title">
     <a href="{{post_url}}" target="_blank">{{title}}</a>
     <span>({{format_url post_url}})</span>
@@ -8,5 +9,6 @@
         {{format_date created_at}}
     |
     <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+  </div>
   </div>
 </article>
