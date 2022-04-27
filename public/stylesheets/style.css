@@ -1,6 +1,6 @@
 * {
  box-sizing: border-box;
- font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-family: monospace;
 }
 
 body, html {
@@ -39,12 +39,9 @@ button:hover {
 }
 
 .post-list {
- 
- 
  justify-content: center;
  margin-top: 2vh;
  padding: 2vw;
- 
 }
 
 .card-page{
@@ -92,12 +89,14 @@ header {
  justify-content: space-between;
  align-items: center;
  padding: 0 1%;
+ margin-top: 1vh;
 }
 
 header h1 a {
  font-size: 5vw;
  text-align: center;
  padding: 2vw;
+ margin-left: 6vw;
 }
 
 main {
@@ -115,7 +114,7 @@ main {
  font-size: 100%;
  font-weight: bold;
  transition: color .1s;
- margin-left: 5px;
+ margin-left: 16px;
 }
 
 .btn-no-style:hover {
